@@ -27,11 +27,11 @@
   display: block;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .header {
     flex-direction: column;
     gap: 2rem;
-    padding: 20px;
+    padding: 60px 40px;
   }
 
   .header a {

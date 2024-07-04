@@ -45,7 +45,7 @@ ul {
   max-width: 4ch;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;
