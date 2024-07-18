@@ -3,7 +3,7 @@
 }
 
 .formacao .container {
-  padding: 80px 60px;
+  padding: 60px 20px;
   position: relative;
 }
 
@@ -21,7 +21,8 @@
 }
 
 .formacao .subtitulo {
-  max-width: 5ch;
+  font-family: "Arvo", serif;
+  max-width: 4ch;
   color: #2c2c2c;
 }
 

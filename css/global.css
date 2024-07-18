@@ -1,5 +1,5 @@
 body {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   color: #141414;
   margin: 0;
   padding: 0;
@@ -37,8 +37,15 @@ ul {
   gap: 100px;
 }
 
+.template {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px;
+}
+
 .subtitulo {
-  font-size: 8rem;
+  font-family: "Arvo", Helvetica, sans-serif;
+  font-size: 7rem;
   line-height: 1.125;
   text-transform: uppercase;
   word-break: break-all;
