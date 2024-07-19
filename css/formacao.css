@@ -21,6 +21,7 @@
 }
 
 .formacao .subtitulo {
+  grid-column: span 4;
   font-family: "Arvo", serif;
   max-width: 4ch;
   color: #2c2c2c;
