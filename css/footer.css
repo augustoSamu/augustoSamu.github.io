@@ -2,11 +2,19 @@
   background: #000;
 }
 
+.footer .subtitulo {
+  grid-column: span 4;
+  font-family: "Arvo", serif;
+  max-width: 5ch;
+  color: #292929;
+}
+
 .footer .container {
   padding: 100px 20px;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  /* place-items: center; */
+}
+
+.footer-conteudo {
+  grid-column: 6 / -1;
 }
 
 .footer-texto {
