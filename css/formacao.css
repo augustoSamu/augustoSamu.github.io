@@ -94,7 +94,7 @@
   font-size: 1.125rem;
 }
 
-.cursos {
+.certificacoes {
   margin-bottom: 60px;
 }
 
@@ -118,7 +118,7 @@
   top: -4px;
 }
 
-.cursos h3::before {
+.certificacoes h3::before {
   background-image: url("../img/cursos.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -147,6 +147,50 @@
 .cursos li {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .formacao .subtitulo {
+    font-size: 6rem;
+  }
+
+  .formacao-texto {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+  }
+
+  .faculdade-tipo {
+    font-size: 0.75rem;
+  }
+
+  .faculdade-curso {
+    font-size: 0.875rem;
+  }
+
+  .faculdade-instituicao {
+    font-size: 1rem;
+  }
+
+  .formacao-extra h3 {
+    font-size: 0.75rem;
+  }
+
+  .certificacoes {
+    margin-bottom: 40px;
+  }
+
+  .formacao-extra li {
+    font-size: 1;
+  }
+
+  .formacao-extra h3::before {
+    height: 18px;
+    width: 18px;
+  }
+
+  .faculdade-lista {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 900px) {

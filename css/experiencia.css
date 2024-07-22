@@ -92,6 +92,34 @@
   padding: 5px 10px;
 }
 
+@media (max-width: 1200px) {
+  .experiencia .subtitulo {
+    font-size: 6rem;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+  }
+
+  .empresa-texto {
+    font-size: 0.75rem;
+    line-height: 1.3;
+  }
+
+  .empresa-ano {
+    font-size: 0.75rem;
+  }
+
+  .empresa h3 {
+    font-size: 1rem;
+  }
+
+  .empresa-habilidades li {
+    font-size: 0.75rem;
+  }
+}
+
 @media (max-width: 900px) {
   .experiencia {
     grid-template-columns: 1fr;
