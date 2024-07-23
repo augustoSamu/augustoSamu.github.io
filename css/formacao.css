@@ -155,7 +155,7 @@
   }
 
   .formacao-texto {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
     margin-bottom: 40px;
   }
 
@@ -164,7 +164,7 @@
   }
 
   .faculdade-curso {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 
   .faculdade-instituicao {
@@ -173,6 +173,7 @@
 
   .formacao-extra h3 {
     font-size: 0.75rem;
+    margin-bottom: 20px;
   }
 
   .certificacoes {
@@ -180,7 +181,7 @@
   }
 
   .formacao-extra li {
-    font-size: 1;
+    font-size: 1rem;
   }
 
   .formacao-extra h3::before {

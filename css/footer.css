@@ -17,7 +17,8 @@
   grid-column: 7 / -1;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  align-content: center;
+  gap: 20px;
   justify-items: start;
   align-items: center;
 }
@@ -35,6 +36,9 @@
 .footer-contato a {
   color: inherit;
   text-decoration: underline;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .footer-contato li:first-child {
@@ -46,8 +50,12 @@
 }
 
 @media (max-width: 1200px) {
+  .footer .subtitulo {
+    font-size: 6rem;
+  }
+
   .footer-contato li {
-    font-size: 1.5git rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -55,6 +63,28 @@
   .footer .container {
     grid-template-columns: 1fr;
     place-items: center;
-    gap: 80px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer .container {
+    grid-template-columns: 1fr;
+    place-items: start;
+  }
+
+  .footer .subtitulo {
+    grid-column: initial;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    /* text-align: left; */
+  }
+
+  .footer-contato {
+    grid-column: initial;
+  }
+
+  .footer-contato li {
+    font-size: 1rem;
   }
 }

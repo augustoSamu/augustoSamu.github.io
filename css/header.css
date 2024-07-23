@@ -31,7 +31,7 @@
   .header {
     flex-direction: column;
     gap: 2rem;
-    padding: 60px 40px;
+    padding: 40px;
   }
 
   .header a {
