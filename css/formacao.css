@@ -198,7 +198,6 @@
   .formacao .container {
     grid-template-columns: 1fr;
     gap: 40px;
-    padding: 60px 40px;
   }
 
   .formacao .container::after {
@@ -209,7 +208,13 @@
   }
 
   .formacao .subtitulo {
+    grid-column: initial;
+    font-size: 3rem;
     color: #fff;
+  }
+
+  .formacao-conteudo {
+    grid-column: initial;
   }
 
   .formacao-texto {
