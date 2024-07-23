@@ -62,6 +62,13 @@
 
 .empresa-titulo {
   grid-column: span 4;
+  display: flex;
+  gap: 8px;
+}
+
+.empresa-titulo img {
+  height: 20px;
+  width: 20px;
 }
 
 .empresa-cargo {
