@@ -60,6 +60,11 @@
   font-weight: bold;
 }
 
+.empresa h3 img:hover {
+  transition: 0.5s;
+  rotate: 360deg;
+}
+
 .empresa-titulo {
   grid-column: span 4;
   display: flex;

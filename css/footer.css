@@ -35,19 +35,29 @@
 
 .footer-contato a {
   color: inherit;
-  text-decoration: underline;
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.footer-contato li:first-child {
-  grid-column: 1 / -1;
+.footer-contato a span {
+  position: relative;
 }
 
-.footer-contato li:last-child {
-  align-self: center;
+.footer-contato a span::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #292929;
+  position: absolute;
 }
+
+.footer-contato a span:hover::after {
+  transition: 0.3s;
+  width: 100%;
+}
+
 
 @media (max-width: 1200px) {
   .footer .subtitulo {

@@ -27,6 +27,19 @@
   display: block;
 }
 
+.header-menu a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #e0e0e0;
+  transition: 0.3s;
+}
+
+.header-menu a:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 900px) {
   .header {
     flex-direction: column;
